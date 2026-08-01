@@ -1,0 +1,53 @@
+{
+  "name": "@octs/skills",
+  "version": "1.0.0",
+  "description": "Production-grade AI coding agent skills library — 28 reusable, security-audited skills for OpenCode, Claude Code, Cursor, Codex CLI, Windsurf, and GitHub Copilot",
+  "keywords": [
+    "ai",
+    "skills",
+    "agent",
+    "coding-agent",
+    "ai-agent",
+    "opencode",
+    "claude-code",
+    "cursor",
+    "codex",
+    "windsurf",
+    "copilot",
+    "prompt-engineering",
+    "developer-tools",
+    "swe",
+    "cursor-rules",
+    "claude-skills",
+    "agent-skills",
+    "best-practices",
+    "code-quality",
+    "security",
+    "octs"
+  ],
+  "license": "MIT",
+  "author": "OpenCTS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opencts/opencts-skills"
+  },
+  "bin": {
+    "octs-skills": "./bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "skills/",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node --test lib/*.test.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
