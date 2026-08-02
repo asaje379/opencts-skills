@@ -1,5 +1,5 @@
 {
-  "name": "@octs/skills",
+  "name": "@asaje/skills",
   "version": "1.0.0",
   "description": "Production-grade AI coding agent skills library — 28 reusable, security-audited skills for OpenCode, Claude Code, Cursor, Codex CLI, Windsurf, and GitHub Copilot",
   "keywords": [

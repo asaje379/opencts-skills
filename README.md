@@ -31,7 +31,7 @@ The result: your AI agent behaves like a senior developer who has worked on the 
 ### Zero-install (recommended)
 
 ```bash
-npx @octs/skills init
+npx @asaje/skills init
 ```
 
 This auto-detects your AI coding agent, installs all 28 skills in the right directory, and sets up project memory.
@@ -39,7 +39,7 @@ This auto-detects your AI coding agent, installs all 28 skills in the right dire
 ### Global install
 
 ```bash
-npm install -g @octs/skills
+npm install -g @asaje/skills
 octs-skills init
 ```
 
