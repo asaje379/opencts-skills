@@ -15,7 +15,7 @@ on:
 
 jobs:
   publish:
-    name: Publish @octs/skills to npm
+    name: Publish @asaje/skills to npm
     runs-on: ubuntu-latest
     permissions:
       contents: read

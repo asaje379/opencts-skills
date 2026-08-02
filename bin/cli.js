@@ -8,7 +8,7 @@ import { readdir } from "node:fs/promises";
 import { execSync } from "node:child_process";
 
 const USAGE = `
-@octs/skills — Production-grade AI coding agent skills library
+@asaje/skills — Production-grade AI coding agent skills library
 
 Usage:
   octs-skills <command> [options]
@@ -73,7 +73,7 @@ async function cmdList(skillsDir) {
   const entries = await readdir(skillsPath, { withFileTypes: true });
   const categories = entries.filter((e) => e.isDirectory()).sort((a, b) => a.name.localeCompare(b.name));
 
-  console.log("@octs/skills — Available skills\n");
+  console.log("@asaje/skills — Available skills\n");
 
   let total = 0;
   for (const cat of categories) {
@@ -109,7 +109,7 @@ async function cmdInit(targetDir, options) {
     process.exit(1);
   }
 
-  console.log(`\n@octs/skills — Initialize\n`);
+  console.log(`\n@asaje/skills — Initialize\n`);
   console.log(`  Target:  ${cwd}`);
   console.log(`  Agent:   ${harness.name}`);
   console.log(`  Skills:  ${harness.skillsDir}/`);
@@ -161,7 +161,7 @@ async function cmdInit(targetDir, options) {
 
 function cmdInfo() {
   console.log(`
-@octs/skills v${getVersion()}
+@asaje/skills v${getVersion()}
 Production-grade AI coding agent skills library
 
   28 skills across 7 categories:

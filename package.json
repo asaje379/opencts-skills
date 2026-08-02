@@ -29,7 +29,7 @@
   "author": "OpenCTS",
   "repository": {
     "type": "git",
-    "url": "https://github.com/opencts/opencts-skills"
+    "url": "https://github.com/asaje379/opencts-skills"
   },
   "bin": {
     "octs-skills": "./bin/cli.js"

@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://img.shields.io/npm/v/@octs/skills?color=blue" alt="npm version">
-  <img src="https://img.shields.io/github/license/opencts/opencts-skills" alt="license">
-  <img src="https://img.shields.io/npm/dt/@octs/skills" alt="downloads">
+  <img src="https://img.shields.io/npm/v/@asaje/skills?color=blue" alt="npm version">
+  <img src="https://img.shields.io/github/license/asaje379/opencts-skills" alt="license">
+  <img src="https://img.shields.io/npm/dt/@asaje/skills" alt="downloads">
   <img src="https://img.shields.io/badge/skills-28-blueviolet" alt="28 skills">
 </p>
 
-# @octs/skills
+# @asaje/skills
 
 Production-grade AI coding agent skills library — **28 reusable, security-audited skills** for OpenCode, Claude Code, Cursor, Codex CLI, Windsurf, and GitHub Copilot.
 
@@ -13,11 +13,11 @@ Transform any AI coding agent into a disciplined, senior-level software engineer
 
 ---
 
-## Why @octs/skills?
+## Why @asaje/skills?
 
 AI coding agents are powerful but undisciplined. They generate code without understanding your codebase, skip tests, ignore conventions, and declare work "done" without real verification.
 
-`@octs/skills` fixes this. Every skill enforces two non-negotiable rules:
+`@asaje/skills` fixes this. Every skill enforces two non-negotiable rules:
 
 1. **Project Context First** — Before generating code, analyze the existing architecture, conventions, components, and dependencies.
 2. **Verify Before Declaring Done** — Never say "done" without verifying compile/lint/tests/types/coherence.
@@ -47,19 +47,19 @@ octs-skills init
 
 ```bash
 # Target a specific agent
-npx @octs/skills init --agent claude-code
+npx @asaje/skills init --agent claude-code
 
 # Install only specific categories
-npx @octs/skills init --categories frontend,backend,architecture
+npx @asaje/skills init --categories frontend,backend,architecture
 
 # Install in a different directory
-npx @octs/skills init /path/to/project --agent cursor
+npx @asaje/skills init /path/to/project --agent cursor
 
 # Skip project memory
-npx @octs/skills init --no-memory
+npx @asaje/skills init --no-memory
 
 # Only initialize project memory
-npx @octs/skills init --memory-only
+npx @asaje/skills init --memory-only
 ```
 
 ---

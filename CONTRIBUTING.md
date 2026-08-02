@@ -1,6 +1,6 @@
-# Contributing to @octs/skills
+# Contributing to @asaje/skills
 
-Thank you for contributing! This guide covers how to add, modify, or improve skills in the `@octs/skills` library.
+Thank you for contributing! This guide covers how to add, modify, or improve skills in the `@asaje/skills` library.
 
 ---
 
@@ -204,7 +204,7 @@ octs-skills init /tmp/octs-test --categories <your-category>
    git tag v1.X.0
    git push origin v1.X.0
    ```
-4. GitHub Actions automatically publishes to npm (`@octs/skills`)
+4. GitHub Actions automatically publishes to npm (`@asaje/skills`)
 
 ---
 
